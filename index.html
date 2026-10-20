@@ -789,57 +789,7 @@ EDUCATION SECTION
 CODING PROFILES
 ===========================-->
 
-<section class="profiles" id="profiles">
 
-    <div class="section-title">
-
-        <h2>Coding Profiles</h2>
-
-        <p>Connect With Me</p>
-
-    </div>
-
-    <div class="profile-links">
-
-        <a href="https://github.com/GdXShashvendra"
-           target="_blank">
-
-            <i class="fab fa-github"></i>
-
-            GitHub
-
-        </a>
-
-        <a href="https://leetcode.com/u/GdShashvendra/"
-           target="_blank">
-
-            <i class="fas fa-code"></i>
-
-            LeetCode
-
-        </a>
-
-        <a href="https://www.kaggle.com/shashvendrayadav"
-           target="_blank">
-
-            <i class="fab fa-kaggle"></i>
-
-            Kaggle
-
-        </a>
-
-        <a href="https://www.linkedin.com/in/shashvendra-yadav-a27a6b386"
-           target="_blank">
-
-            <i class="fab fa-linkedin"></i>
-
-            LinkedIn
-
-        </a>
-
-    </div>
-
-</section>
 <!--==========================
 CONTACT SECTION
 ===========================-->
@@ -847,127 +797,159 @@ CONTACT SECTION
 <section class="contact" id="contact">
 
     <div class="section-title">
-
-        <h2>Contact Me</h2>
-
-        <p>Let's Connect & Build Something Amazing</p>
-
+        <h2>Let's Connect & Build Something Amazing</h2>
+        <p>Have an idea? Let's turn it into something great.</p>
     </div>
 
     <div class="contact-wrapper">
 
         <!-- Contact Information -->
-
         <div class="contact-info">
 
-            <div class="contact-card">
+            <h3 class="contact-subtitle">Contact Information</h3>
 
+            <div class="contact-card">
                 <i class="fas fa-user"></i>
-
                 <div>
-
                     <h3>Name</h3>
-
                     <p>Shashvendra Yadav</p>
-
                 </div>
-
             </div>
 
             <div class="contact-card">
-
                 <i class="fas fa-envelope"></i>
-
                 <div>
-
                     <h3>Email</h3>
-
                     <p>
-
                         <a href="mailto:shashvendray26@gmail.com">
-
                             shashvendray26@gmail.com
-
                         </a>
-
                     </p>
-
                 </div>
-
             </div>
 
             <div class="contact-card">
-
                 <i class="fas fa-phone"></i>
-
                 <div>
-
                     <h3>Phone</h3>
-
                     <p>
-
                         <a href="tel:+917651946855">
-
-                            +91 7651946855
-
+                            +91 76519 46855
                         </a>
-
                     </p>
-
                 </div>
-
             </div>
 
             <div class="contact-card">
-
                 <i class="fas fa-location-dot"></i>
-
                 <div>
-
                     <h3>Address</h3>
-
-                    <p>
-
-                        Dhanuwasand, Lucknow, Uttar Pradesh - 226301
-
-                    </p>
-
+                    <p>Dhanuwasand, Lucknow, Uttar Pradesh - 226301</p>
                 </div>
+            </div>
+
+            <!-- Social and contact links -->
+            <div class="contact-socials">
+
+                <a href="https://github.com/GdXShashvendra"
+                   target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+
+                <a href="https://www.linkedin.com/in/shashvendra-yadav-a27a6b386/"
+                   target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+
+                <a href="https://leetcode.com/u/GdShashvendra/"
+                   target="_blank" rel="noopener noreferrer">
+                    <i class="fas fa-code"></i>
+                    <span>LeetCode</span>
+                </a>
+
+                <a href="https://www.kaggle.com/shashvendrayadav"
+                   target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-kaggle"></i>
+                    <span>Kaggle</span>
+                </a>
+
+                <a href="https://wa.me/917651946855"
+                   target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>WhatsApp</span>
+                </a>
 
             </div>
 
         </div>
 
         <!-- Contact Form -->
+        <form class="contact-form"
+              action="https://formsubmit.co/shashvendray26@gmail.com"
+              method="POST">
 
-        <form class="contact-form">
+            <h3 class="form-heading">
+                <i class="fas fa-paper-plane"></i>
+                Send Me a Message
+            </h3>
 
-            <input
-                type="text"
-                placeholder="Your Name"
-                required>
+            <input type="hidden" name="_subject"
+                   value="New message from portfolio website">
 
-            <input
-                type="email"
-                placeholder="Your Email"
-                required>
+            <input type="hidden" name="_captcha" value="true">
 
-            <input
-                type="text"
-                placeholder="Subject"
-                required>
+            <div class="contact-form-row">
 
-            <textarea
-                placeholder="Write your message..."
-                rows="7"
-                required></textarea>
+                <div class="form-field">
+                    <label for="contact-name">Your Name</label>
+                    <input
+                        id="contact-name"
+                        type="text"
+                        name="name"
+                        placeholder="Enter your name"
+                        autocomplete="name"
+                        required>
+                </div>
 
-            <button
-                type="submit"
-                class="btn">
+                <div class="form-field">
+                    <label for="contact-email">Your Email</label>
+                    <input
+                        id="contact-email"
+                        type="email"
+                        name="email"
+                        placeholder="you@example.com"
+                        autocomplete="email"
+                        required>
+                </div>
 
+            </div>
+
+            <div class="form-field">
+                <label for="contact-subject">Subject</label>
+                <input
+                    id="contact-subject"
+                    type="text"
+                    name="subject"
+                    placeholder="What is this regarding?"
+                    required>
+            </div>
+
+            <div class="form-field">
+                <label for="contact-message">Your Message</label>
+                <textarea
+                    id="contact-message"
+                    name="message"
+                    rows="6"
+                    placeholder="Tell me about your project or idea..."
+                    required></textarea>
+            </div>
+
+            <button type="submit" class="btn contact-submit">
+                <i class="fas fa-paper-plane"></i>
                 Send Message
-
+                <i class="fas fa-arrow-right"></i>
             </button>
 
         </form>
@@ -975,6 +957,7 @@ CONTACT SECTION
     </div>
 
 </section>
+
 
 <!--==========================
 FOOTER
